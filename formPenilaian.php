@@ -107,7 +107,7 @@
     $nim = $_POST["inputNim"];
     $nilai = intval($_POST["inputNilai"]);
 
-    // Menentukan Grade berdasarkan nilai
+
     if ($nilai >= 90) {
       $grade = "A";
     } elseif ($nilai >= 80) {

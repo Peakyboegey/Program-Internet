@@ -1,0 +1,57 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #D3EE98;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.suhuruangan, .kelembabanruangan {
+    font-size: 15px;
+}
+
+.kelembabanruangan {
+    font-size: 15px;
+}
+
+.formAC {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.submit, .output {
+    display: block;
+    text-align: center;
+}
+
+.indikator {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 5px;
+    border-radius: 8px;
+    border-style: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.submit {
+    margin-top: 7px;
+    border-radius: 8px;
+    border-style: none;
+    justify-content: center;
+    padding: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.output {
+    text-align: center;
+    background-color: #FFF;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
